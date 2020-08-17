@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d7db1b0-cca4-4abc-9e79-cbed10019401" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UX7iBgJWMqLQXOOdV3pTFz1Txx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../продвин js/js-2-16_2904.git" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Обучение\Geekbrais\HTML Профверстка\Уроки и ДЗ\Мой проект магазина" />
+      <recent name="E:\Обучение\Geekbrais\HTML Профверстка\Уроки и ДЗ\Мой проект магазина\.sass-cache" />
+      <recent name="C:\Users\пк\Desktop\D\Верстка\Верстка весь\Мой проект магазина" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d7db1b0-cca4-4abc-9e79-cbed10019401" name="Default Changelist" comment="" />
+      <created>1575491211007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575491211007</updated>
+      <workItem from="1575491212426" duration="3059000" />
+      <workItem from="1575573760895" duration="47307000" />
+      <workItem from="1576242269306" duration="42567000" />
+      <workItem from="1577789697240" duration="6851000" />
+      <workItem from="1578305263975" duration="321000" />
+      <workItem from="1578387974507" duration="41202000" />
+      <workItem from="1579111951691" duration="10031000" />
+      <workItem from="1586424474103" duration="26142000" />
+      <workItem from="1586695707167" duration="3896000" />
+      <workItem from="1587201179758" duration="10769000" />
+      <workItem from="1587293781897" duration="616000" />
+      <workItem from="1587471875273" duration="10879000" />
+      <workItem from="1587515854392" duration="52000" />
+      <workItem from="1587570121162" duration="605000" />
+      <workItem from="1587586499938" duration="1316000" />
+      <workItem from="1587656366379" duration="15134000" />
+      <workItem from="1587812077110" duration="12614000" />
+      <workItem from="1587898392186" duration="15093000" />
+      <workItem from="1588189358069" duration="601000" />
+      <workItem from="1588228710873" duration="662000" />
+      <workItem from="1588322465272" duration="394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1588322856058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588322856058" />
+    <state x="604" y="0" width="709" height="728" key="find.popup" timestamp="1587822308141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="604" y="0" width="709" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587822308141" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587901272941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587901272941" />
+  </component>
+</project>

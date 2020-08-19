@@ -264,24 +264,24 @@
                <a href="#" class="nav__text">Home /</a><a href="#" class="nav__text">Men /</a><a href="#" class="nav__text nav__text1"> New Arrivals</a>
            </div>
        </div>
-            <article class="checkout center">
+            <div class="checkout center">
                 <ul>
                     <li class="checkout__list">
                         <details open>
                             <summary class="checkout__header">01.   Shipping Adress</summary>
-                            <section class="checkout__shippingAdress">
+                            <div class="checkout__shippingAdress">
                                 <div class="checkout__checkAs">
                                     <form action="#">
                                         <fieldset class="checkAsRadio">
                                             <legend class="checkAsRadio__header">Check as a guest or register</legend>
                                             <p class="checkAsRadio__p">Register with us for future convenience</p>
-                                            <p>
-                                            <input name = "check" type="radio" class="checkAsRadio__text">
-                                            <label for="checkAsRadio__text" class="checkAsRadio__text">checkout as guest</label><br/>
+                                            <div>
+                                            <input id = "checkAsRadio__text1" type="radio" name = "checkAsRadio__text" class="checkAsRadio__text">
+                                            <label for="checkAsRadio__text1" >checkout as guest</label><br/>
                                                 
-                                            <input name = "check" type="radio" class="checkAsRadio__text">
-                                            <label for="checkAsRadio__text" class="checkAsRadio__text">register</label><br/>
-                                            </p>
+                                            <input id = "checkAsRadio__text2" type="radio" name = "checkAsRadio__text" class="checkAsRadio__text">
+                                            <label for="checkAsRadio__text2" >register</label><br/>
+                                            </div>
                                             <div class="checkAsRadio__header">register and save time!</div>
 
                                             <p class="checkAsRadio__p">Register with us for future convenience</p>
@@ -292,22 +292,24 @@
                                         </fieldset>
                                     </form>
                                 </div>
-                                <section class="checkout__register">
+                                <div class="checkout__register">
                                     <form action="#">
                                         <fieldset class="checkoutRegister">
                                             <legend class="checkoutRegister__header">Already registed?</legend>
                                             <p class="checkoutRegister__p">Please log in below</p>
+                                            <p class="checkoutRegister__email">
                                             <label for="email">
-                                                <div class="checkoutRegister__email">EMAIL ADDRESS <em>*</em></div>
-
+                                                EMAIL ADDRESS <em>*</em>
                                             </label>
+                                            </p>
                                             <br>
                                             <input id="email" placeholder = "email@gmail.com" required>
                                             <br>
+                                            <p class="checkoutRegister__password">
                                             <label for="text-password">
-                                                <div class="checkoutRegister__password">PASSWORD <em>*</em></div>
-
+                                                PASSWORD <em>*</em>
                                             </label>
+                                            </p>
                                             <br>
                                             <input id="userPassword" type="password" required>
                                             <p class="checkoutRegister__p_required">* Required Fileds</p>
@@ -322,8 +324,8 @@
                                         </fieldset>
                                     </form>
 
-                                </section>
-                            </section>
+                                </div>
+                            </div>
                         </details>
                     </li>
                     <li class="checkout__list">
@@ -352,113 +354,114 @@
                         </details>
                     </li>
                 </ul>
-            </article>
+            </div>
 
    </main>
         </div>
-    </body>
-    <footer>
-        <div class="conteiner">
-        <div class="subscribe center">
-            <div class="subscribe__content">
-                <div class="subscribe__review">
-                    <div class="subscribe__img__face"><img src="img/subscripe__face.png" alt=""></div>
-                    <div class="subscribe__review__block">
-                        <p class="subscribe__review__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
-                        <div class="subscribe__name">
-                            <p class="subscribe__name1">Bin Burhan</p>
-                            <p class="subscribe__name2">Dhaka, Bd</p>
-                            <a href="#" class="slider__line"><img src="img/slaider__line1.svg" alt=""></a>
+        <footer>
+            <div class="conteiner">
+            <div class="subscribe center">
+                <div class="subscribe__content">
+                    <div class="subscribe__review">
+                        <div class="subscribe__img__face"><img src="img/subscripe__face.png" alt=""></div>
+                        <div class="subscribe__review__block">
+                            <p class="subscribe__review__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <div class="subscribe__name">
+                                <p class="subscribe__name1">Bin Burhan</p>
+                                <p class="subscribe__name2">Dhaka, Bd</p>
+                                <a href="#" class="slider__line"><img src="img/slaider__line1.svg" alt=""></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="subscribe__form">
-                    <div class="subscribe__text">
-                        <h3 class="subscribe__header"> Subscribe</h3>
-                        <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="subscribe__form">
+                        <div class="subscribe__text">
+                            <h3 class="subscribe__header"> Subscribe</h3>
+                            <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+                        <form class="subscribe__input" action="#">
+                            <input class="subscribe__email" name="Enter Your Email" type="text">
+                            <button class="subscribe__button" type="submit">Subscribe</button>
+    
+                        </form>
                     </div>
-                    <form class="subscribe__input" action="#">
-                        <input class="subscribe__email" name="Enter Your Email" type="text">
-                        <a href="#"><button class="subscribe__button" type="submit">Subscribe</button></a>
-
-                    </form>
                 </div>
             </div>
-        </div>
-        <div class="info__footer center">
-
-            <div class="info__footer1">
-                <div class="info__footer__header">
-                    <a class="logo" href="№">
-                        <img class="logo__img" src="img/logo.png" alt="№">
-                        <p class="logo__p">BRAN<span class="logo__span">D</span> </p>
-                    </a>
+            <div class="info__footer center">
+    
+                <div class="info__footer1">
+                    <div class="info__footer__header">
+                        <a class="logo" href="№">
+                            <img class="logo__img" src="img/logo.png" alt="№">
+                            <p class="logo__p">BRAN<span class="logo__span">D</span> </p>
+                        </a>
+                    </div>
+                    <div class="footer__text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                        <br><br>
+                        Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamicaoptimize.
+                    </div>
                 </div>
-                <div class="footer__text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
-                    <br><br>
-                    Efficiently plagiarize 24/365 action items and focused infomediaries.
-                    Distinctively seize superior initiatives for wireless technologies. Dynamicaoptimize.
+    
+                <div class="info__footer2">
+                    <div class="info__footer__header">
+                        <h3 class="footer__logo__name">COMPANY</h3>
+                    </div>
+                    <div class="info__footer__text">
+                        <a href="#" class="link">Home</a>
+                        <a href="#" class="link">Shop</a>
+                        <a href="#" class="link">About</a>
+                        <a href="#" class="link">How It Works</a>
+                        <a href="#" class="link">Contact</a>
+    
+                    </div>
+                </div>
+                <div class="info__footer3">
+                    <div class="info__footer__header">
+                        <h3 class="footer__logo__name">INFORMATION</h3>
+                    </div>
+                    <div class="info__footer__text">
+                        <a href="#" class="link">Tearms & Condition</a>
+                        <a href="#" class="link">Privacy Policy</a>
+                        <a href="#" class="link">How to Buy</a>
+                        <a href="#" class="link">How to Sell</a>
+                        <a href="#" class="link">Promotion</a>
+                    </div>
+                    <div class="info__footer4"></div>
+                </div>
+    
+                <div class="info__footer4">
+                    <div class="info__footer__header">
+                        <h3 class="footer__logo__name">SHOP CATEGORY</h3>
+                    </div>
+                    <div class="info__footer__text">
+                        <a href="#" class="link">Men</a>
+                        <a href="#" class="link">Women</a>
+                        <a href="#" class="link">Child</a>
+                        <a href="#" class="link">Apparel</a>
+                        <a href="#" class="link">Brows All</a>
+    
+                    </div>
+                    <div class="info__footer4"></div>
                 </div>
             </div>
-
-            <div class="info__footer2">
-                <div class="info__footer__header">
-                    <h3 class="footer__logo__name">COMPANY</h3>
+            <div class="networks center">
+                <div class="copyrite">
+                    © 2017 Brand All Rights Reserved
                 </div>
-                <div class="info__footer__text">
-                    <a href="#" class="link">Home</a>
-                    <a href="#" class="link">Shop</a>
-                    <a href="#" class="link">About</a>
-                    <a href="#" class="link">How It Works</a>
-                    <a href="#" class="link">Contact</a>
-
+                <div class="icon">
+    
+                    <a href="" class="icon__item"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="icon__item"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="icon__item"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="icon__item"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="" class="icon__item"><i class="fab fa-google-plus-g"></i></a>
                 </div>
+    
             </div>
-            <div class="info__footer3">
-                <div class="info__footer__header">
-                    <h3 class="footer__logo__name">INFORMATION</h3>
-                </div>
-                <div class="info__footer__text">
-                    <a href="#" class="link">Tearms & Condition</a>
-                    <a href="#" class="link">Privacy Policy</a>
-                    <a href="#" class="link">How to Buy</a>
-                    <a href="#" class="link">How to Sell</a>
-                    <a href="#" class="link">Promotion</a>
-                </div>
-                <div class="info__footer4"></div>
             </div>
+        </footer>
+    </body>
 
-            <div class="info__footer4">
-                <div class="info__footer__header">
-                    <h3 class="footer__logo__name">SHOP CATEGORY</h3>
-                </div>
-                <div class="info__footer__text">
-                    <a href="#" class="link">Men</a>
-                    <a href="#" class="link">Women</a>
-                    <a href="#" class="link">Child</a>
-                    <a href="#" class="link">Apparel</a>
-                    <a href="#" class="link">Brows All</a>
-
-                </div>
-                <div class="info__footer4"></div>
-            </div>
-        </div>
-        <div class="networks center">
-            <div class="copyrite">
-                © 2017 Brand All Rights Reserved
-            </div>
-            <div class="icon">
-
-                <a href="" class="icon__item"><i class="fab fa-facebook-f"></i></a>
-                <a href="" class="icon__item"><i class="fab fa-twitter"></i></a>
-                <a href="" class="icon__item"><i class="fab fa-linkedin-in"></i></a>
-                <a href="" class="icon__item"><i class="fab fa-pinterest-p"></i></a>
-                <a href="" class="icon__item"><i class="fab fa-google-plus-g"></i></a>
-            </div>
-
-        </div>
-        </div>
-    </footer>
 
 </html>
